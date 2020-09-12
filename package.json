@@ -1,0 +1,39 @@
+{
+  "name": "starter-project",
+  "version": "1.0.0",
+  "description": "A project template to be used for building a static website with Gulp, Twig and Sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "author": "Trésor ILOYI <tresor.iloyi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "gulp-twig": "^1.2.0",
+    "jquery": "^3.5.1",
+    "lozad": "^1.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-pxtorem": "^5.1.1",
+    "prettier": "2.1.1",
+    "prettier-plugin-twig-melody": "^0.4.6",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^6.1.0",
+    "yargs": "^16.0.3"
+  }
+}
