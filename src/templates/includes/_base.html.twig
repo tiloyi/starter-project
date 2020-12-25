@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block headTitle %}
+        Document
+      {% endblock %}
+    </title>
+  </head>
+  <body>
+    <div id="page" class="{% block pageClass %}{% endblock %}">
+      {% block body %}{% endblock %}
+    </div>
+  </body>
+</html>
